@@ -27,7 +27,7 @@ Bearer Token based Authentication
 
 ## Public Endpoints
 
-* Register user as Admin: /public/users/admin
+* Register user as Admin: ```/public/users/admin```
 * Register user as Customer: /public/users/customer
 * Login: /public/authentication/login
 
