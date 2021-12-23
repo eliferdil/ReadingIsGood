@@ -1,8 +1,9 @@
 # ReadingIsGood
 
-This is a Java, Spring Boot application with H2 in-memory database.
+This is a Java, Spring Boot application with H2 in-memory database. Containerized with Docker.
 
 ## How to Run
+
 
 This application is packaged as a war which has Tomcat embedded. You can run it using the java -jar command.
 
@@ -13,6 +14,13 @@ This application is packaged as a war which has Tomcat embedded. You can run it 
 ```
 java -jar target/demo-0.0.1-SNAPSHOT.war
 ```
+
+or
+
+### By Using Docker
+
+* ```docker build -t bootdocker:1 .```
+* ```docker run -d --name bootdocker -p 8080:8080 bootdocker:1```
         
 ## Swagger Doc
 http://localhost:8080/swagger-ui.html
