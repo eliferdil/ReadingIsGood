@@ -27,19 +27,19 @@ Bearer Token based Authentication
 
 ## Public Endpoints
 
-Register user as Admin: /public/users/admin
-Register user as Customer: /public/users/customer
-Login: /public/authentication/login
+* Register user as Admin: /public/users/admin
+* Register user as Customer: /public/users/customer
+* Login: /public/authentication/login
 
 ## Secured Endpoints
 
-Register Book: /rest/books (role: ADMIN)
-Update Book Stock: /rest/books/update-stock (role: ADMIN)
+* Register Book: /rest/books (role: ADMIN)
+* Update Book Stock: /rest/books/update-stock (role: ADMIN)
 
-Create Order: /rest/orders (role: ADMIN, CUSTOMER)
-List Orders of Customer: /rest/customers/{userId}/orders/{page} (role: ADMIN, CUSTOMER)
-List Order by ID: /rest/orders/{orderId} (role: ADMIN, CUSTOMER)
-List Orders by Date Interval: /rest/orders?dateFrom={fromDate}&dateTo={toDate}&page={page} (role: ADMIN, CUSTOMER)
-Get Customer's Monthly Statistics: /rest/statistics/{userId} (role: ADMIN, CUSTOMER)
+* Create Order: /rest/orders (role: ADMIN, CUSTOMER)
+* List Orders of Customer: /rest/customers/{userId}/orders/{page} (role: ADMIN, CUSTOMER)
+* List Order by ID: /rest/orders/{orderId} (role: ADMIN, CUSTOMER)
+* List Orders by Date Interval: /rest/orders?dateFrom={fromDate}&dateTo={toDate}&page={page} (role: ADMIN, CUSTOMER)
+* Get Customer's Monthly Statistics: /rest/statistics/{userId} (role: ADMIN, CUSTOMER)
 
 
